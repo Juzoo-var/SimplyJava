@@ -19,7 +19,7 @@ public class SFrame {
         this.width = width;
     }
 
-    public int getHeight() {
+    public int getWeight() {
         return height;
     }
 
@@ -45,7 +45,7 @@ public class SFrame {
     }
     public void openFrame(){
         JFrame SFrame = new JFrame();
-        SFrame.setSize(this.getWidth(), this.getHeight());
+        SFrame.setSize(this.getWidth(), this.getWeight());
         SFrame.setTitle(this.getTitle());
         SFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         SFrame.setVisible(this.isVisible());
